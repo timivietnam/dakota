@@ -1,0 +1,611 @@
+{
+  "version": 1.0,
+  "strict": {
+    "text-font-family": "Inter-Regular",
+    "text-font-family-bold": "Inter-Bold",
+    "text-font-family-medium": "Inter-Medium",
+    "text-font-family-regular": "Inter-Regular",
+    "text-font-family-semiBold": "Inter-SemiBold",
+    "text-heading-1-font-size": 48,
+    "text-heading-1-font-weight": "600",
+    "text-heading-1-font-family": "$text-font-family-semiBold",
+    "text-heading-2-font-size": 40,
+    "text-heading-2-font-weight": "600",
+    "text-heading-2-font-family": "$text-font-family-semiBold",
+    "text-heading-3-font-size": 32,
+    "text-heading-3-font-weight": "600",
+    "text-heading-3-font-family": "$text-font-family-semiBold",
+    "text-heading-4-font-size": 28,
+    "text-heading-4-font-weight": "700",
+    "text-heading-4-font-family": "$text-font-family-bold",
+    "text-heading-5-font-size": 24,
+    "text-heading-5-font-weight": "600",
+    "text-heading-5-font-family": "$text-font-family-semiBold",
+    "text-heading-6-font-size": 20,
+    "text-heading-6-font-weight": "600",
+    "text-heading-6-font-family": "$text-font-family-semiBold",
+    "text-title-1-font-size": 18,
+    "text-title-1-font-weight": "600",
+    "text-title-1-font-family": "$text-font-family-semiBold",
+    "text-title-2-font-size": 18,
+    "text-title-2-font-weight": "500",
+    "text-title-2-font-family": "$text-font-family-medium",
+    "text-base-1-font-size": 16,
+    "text-base-1-font-weight": "400",
+    "text-base-1-font-family": "$text-font-family-regular",
+    "text-base-2-font-size": 16,
+    "text-base-2-font-weight": "600",
+    "text-base-2-font-family": "$text-font-family-semiBold",
+    "text-base-3-font-size": 14,
+    "text-base-3-font-weight": "400",
+    "text-base-3-font-family": "$text-font-family-regular",
+    "text-base-5-font-size": 14,
+    "text-base-5-font-weight": "600",
+    "text-base-5-font-family": "$text-font-family-semiBold",
+    "text-caption-1-font-size": 13,
+    "text-caption-1-font-weight": "600",
+    "text-caption-1-font-family": "$text-font-family-semiBold",
+    "text-caption-2-font-size": 13,
+    "text-caption-2-font-weight": "400",
+    "text-caption-2-font-family": "$text-font-family-regular",
+    "text-caption-3-font-size": 12,
+    "text-caption-3-font-weight": "400",
+    "text-caption-3-font-family": "$text-font-family-regular",
+    "text-caption-4-font-size": 10,
+    "text-caption-4-font-weight": "600",
+    "text-caption-4-font-family": "$text-font-family-semiBold",
+    "text-caption-5-font-size": 10,
+    "text-caption-5-font-weight": "400",
+    "text-caption-5-font-family": "$text-font-family-regular",
+    "text-button-4-font-size": 12,
+    "text-button-4-font-weight": "700",
+    "text-button-4-font-family": "$text-font-family-bold",
+    "border-radius": "100%",
+    "border-width": 0,
+    "size-tiny": 24,
+    "size-small": 32,
+    "size-medium": 40,
+    "size-large": 48,
+    "size-giant": 56
+  },
+  "components": {
+    "Text": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "color": {
+            "type": "string"
+          }
+        },
+        "variantGroups": {
+          "status": {
+            "basic": {
+              "default": true
+            },
+            "description": {
+              "default": false
+            },
+            "white": {
+              "default": false
+            },
+            "sub": {
+              "default": false
+            },
+            "body": {
+              "default": false
+            },
+            "title": {
+              "default": false
+            },
+            "placeholder": {
+              "default": false
+            },
+            "content": {
+              "default": false
+            }
+          },
+          "category": {
+            "h1": {
+              "default": false
+            },
+            "h2": {
+              "default": false
+            },
+            "h3": {
+              "default": false
+            },
+            "h4": {
+              "default": false
+            },
+            "h5": {
+              "default": false
+            },
+            "h6": {
+              "default": false
+            },
+            "t1": {
+              "default": false
+            },
+            "t2": {
+              "default": false
+            },
+            "b1": {
+              "default": true
+            },
+            "b2": {
+              "default": false
+            },
+            "b3": {
+              "default": false
+            },
+            "b4": {
+              "default": false
+            },
+            "b5": {
+              "default": false
+            },
+            "c1": {
+              "default": false
+            },
+            "c2": {
+              "default": false
+            },
+            "c3": {
+              "default": false
+            },
+            "c4": {
+              "default": false
+            },
+            "c5": {
+              "default": false
+            }
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "color": "$text-basic-color"
+              },
+              "description": {
+                "color": "$text-description-color"
+              },
+              "white": {
+                "color": "$text-white-color"
+              },
+              "sub": {
+                "color": "$text-sub-color"
+              },
+              "body": {
+                "color": "$text-body-color"
+              },
+              "title": {
+                "color": "$text-title-color"
+              },
+              "placeholder": {
+                "color": "$text-placeholder-color"
+              },
+              "content": {
+                "color": "$text-content-color"
+              }
+            },
+            "category": {
+              "h1": {
+                "fontSize": "text-heading-1-font-size",
+                "fontWeight": "text-heading-1-font-weight",
+                "fontFamily": "text-heading-1-font-family"
+              },
+              "h2": {
+                "fontSize": "text-heading-2-font-size",
+                "fontWeight": "text-heading-2-font-weight",
+                "fontFamily": "text-heading-2-font-family"
+              },
+              "h3": {
+                "fontSize": "text-heading-3-font-size",
+                "fontWeight": "text-heading-3-font-weight",
+                "fontFamily": "text-heading-3-font-family"
+              },
+              "h4": {
+                "fontSize": "text-heading-4-font-size",
+                "fontWeight": "text-heading-4-font-weight",
+                "fontFamily": "text-heading-4-font-family"
+              },
+              "h5": {
+                "fontSize": "text-heading-5-font-size",
+                "fontWeight": "text-heading-5-font-weight",
+                "fontFamily": "text-heading-5-font-family"
+              },
+              "h6": {
+                "fontSize": "text-heading-6-font-size",
+                "fontWeight": "text-heading-6-font-weight",
+                "fontFamily": "text-heading-6-font-family"
+              },
+              "t1": {
+                "fontSize": "text-title-1-font-size",
+                "fontWeight": "text-title-1-font-weight",
+                "fontFamily": "text-title-1-font-family"
+              },
+              "t2": {
+                "fontSize": "text-title-2-font-size",
+                "fontWeight": "text-title-2-font-weight",
+                "fontFamily": "text-title-2-font-family"
+              },
+              "b1": {
+                "fontSize": "text-base-1-font-size",
+                "fontWeight": "text-base-1-font-weight",
+                "fontFamily": "text-base-1-font-family"
+              },
+              "b2": {
+                "fontSize": "text-base-2-font-size",
+                "fontWeight": "text-base-2-font-weight",
+                "fontFamily": "text-base-2-font-family"
+              },
+              "b3": {
+                "fontSize": "text-base-3-font-size",
+                "fontWeight": "text-base-3-font-weight",
+                "fontFamily": "text-base-3-font-family"
+              },
+              "b4": {
+                "fontSize": "text-button-4-font-size",
+                "fontWeight": "text-button-4-font-weight",
+                "fontFamily": "text-button-4-font-family"
+              },
+              "b5": {
+                "fontSize": "text-base-5-font-size",
+                "fontWeight": "text-base-5-font-weight",
+                "fontFamily": "text-base-5-font-family"
+              },
+              "c1": {
+                "fontSize": "text-caption-1-font-size",
+                "fontWeight": "text-caption-1-font-weight",
+                "fontFamily": "text-caption-1-font-family"
+              },
+              "c2": {
+                "fontSize": "text-caption-2-font-size",
+                "fontWeight": "text-caption-2-font-weight",
+                "fontFamily": "text-caption-2-font-family"
+              },
+              "c3": {
+                "fontSize": "text-caption-3-font-size",
+                "fontWeight": "text-caption-3-font-weight",
+                "fontFamily": "text-caption-3-font-family"
+              },
+              "c4": {
+                "fontSize": "text-caption-4-font-size",
+                "fontWeight": "text-caption-4-font-weight",
+                "fontFamily": "text-caption-4-font-family"
+              },
+              "c5": {
+                "fontSize": "text-caption-5-font-size",
+                "fontWeight": "text-caption-5-font-weight",
+                "fontFamily": "text-caption-5-font-family"
+              }
+            }
+          }
+        }
+      }
+    },
+    "TopNavigation": {
+      "meta": {
+        "variantGroups": {
+          "alignment": {
+            "start": {
+              "default": false
+            },
+            "center": {
+              "default": true
+            }
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "paddingVertical": 0,
+            "paddingHorizontal": 12,
+            "backgroundColor": "transparent",
+            "titleFontSize": "text-title-1-font-size",
+            "titleFontWeight": "text-title-1-font-weight",
+            "titleFontFamily": "text-title-1-font-family",
+            "titleColor": "$text-content-color"
+          }
+        }
+      }
+    },
+    "TopNavigationAction": {
+      "appearances": {
+        "default": {
+          "mapping": {
+            "iconTintColor": "$icon-basic-color"
+          }
+        }
+      }
+    },
+    "Button": {
+      "scope": "all",
+      "meta": {
+        "parameters": {
+          "borderTopLeftRadius": {
+            "type": "number"
+          },
+          "borderBottomLeftRadius": {
+            "type": "number"
+          },
+          "justifyContent": {
+            "type": "string"
+          },
+          "paddingHorizontal": {
+            "type": "number"
+          },
+          "paddingLeft": {
+            "type": "number"
+          },
+          "paddingRight": {
+            "type": "number"
+          }
+        },
+        "variantGroups": {
+          "size": {
+            "medium": {
+              "default": false
+            },
+            "large": {
+              "default": true
+            }
+          },
+          "status": {
+            "disable": {
+              "default": false
+            }
+          }
+        }
+      },
+      "appearances": {
+        "filled": {
+          "variantGroups": {
+            "status": {
+              "primary": {
+                "backgroundColor": "color-primary",
+                "textColor": "color-basic-100",
+                "iconTintColor": "color-basic-100",
+                "state": {}
+              },
+              "basic": {
+                "backgroundColor": "color-secondary-06-100",
+                "textColor": "color-primary",
+                "iconTintColor": "color-primary",
+                "state": {}
+              }
+            },
+            "size": {
+              "tiny": {
+                "textFontSize": "text-button-4-font-size",
+                "textFontWeight": "600"
+              },
+              "small": {
+                "textFontSize": "text-base-3-font-size",
+                "textFontWeight": "600"
+              },
+              "medium": {
+                "textFontSize": "text-base-2-font-size",
+                "textFontWeight": "600"
+              },
+              "large": {
+                "textFontSize": "text-title-1-font-size",
+                "textFontWeight": "600"
+              }
+            }
+          },
+          "mapping": {
+            "textFontFamily": "text-base-2-font-family"
+          }
+        }
+      }
+    },
+    "Input": {
+      "meta": {
+        "parameters": {
+          "borderBottomWidth": {
+            "type": "number"
+          },
+          "borderRadius": {
+            "type": "number"
+          }
+        },
+        "variantGroups": {
+          "status": {
+            "basic": {
+              "default": false
+            },
+            "primary": {
+              "default": true
+            }
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "paddingHorizontal": 12,
+            "textMarginHorizontal": 12,
+            "iconMarginHorizontal": 0,
+            "textFontFamily": "text-font-family",
+            "iconWidth": 20,
+            "iconHeight": 20
+          },
+          "variantGroups": {
+            "status": {
+              "primary": {
+                "textColor": "$text-basic-color",
+                "borderColor": "color-basic-300",
+                "backgroundColor": "transparent",
+                "labelColor": "$text-basic-color",
+                "placeholderColor": "$text-placeholder-color",
+                "iconTintColor": "$icon-basic-color",
+                "captionColor": "$text-basic-color",
+                "state": {
+                  "focused": {
+                    "backgroundColor": "transparent",
+                    "borderColor": "color-info-500",
+                    "iconTintColor": "$icon-basic-color"
+                  },
+                  "hover": {
+                    "backgroundColor": "transparent",
+                    "borderColor": "border-basic-color-4"
+                  },
+                  "disabled": {
+                    "borderColor": "border-basic-color-4",
+                    "backgroundColor": "transparent",
+                    "textColor": "$text-input-disable-color",
+                    "labelColor": "$text-input-disable-color",
+                    "placeholderColor": "$text-input-disable-color",
+                    "iconTintColor": "$text-input-disable-color"
+                  }
+                }
+              }
+            },
+            "size": {
+              "medium": {
+                "borderBottomWidth": 1,
+                "textFontSize": 16,
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "paddingVertical": 0,
+                "paddingHorizontal": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    "CheckBox": {
+      "meta": {
+        "variantGroups": {
+          "round": {
+            "default": false
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "width": 12,
+            "height": 12,
+            "borderRadius": 2,
+            "borderWidth": 2,
+            "textFontSize": "text-caption-2-font-size",
+            "textFontWeight": "text-caption-2-font-weight",
+            "textFontFamily": "text-caption-2-font-family",
+            "textMarginHorizontal": 8,
+            "iconWidth": 6,
+            "iconHeight": 6,
+            "iconTintColor": "transparent"
+          },
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "borderColor": "color-basic-600",
+                "backgroundColor": "transparent",
+                "textColor": "$text-body-color",
+                "state": {
+                  "checked": {
+                    "borderColor": "transparent",
+                    "backgroundColor": "$background-basic-color-6",
+                    "iconTintColor": "color-basic-100"
+                  },
+                  "indeterminate": {
+                    "borderColor": "color-basic-600",
+                    "backgroundColor": "transparent",
+                    "iconTintColor": "icon-check-box-color"
+                  },
+                  "focused": {
+                    "borderColor": "color-basic-600",
+                    "backgroundColor": "$background-basic-color-6",
+                    "outlineBackgroundColor": "transparent"
+                  },
+                  "checked.focused": {
+                    "borderColor": "transparent",
+                    "backgroundColor": "$background-basic-color-6"
+                  },
+                  "active": {
+                    "borderColor": "transparent",
+                    "backgroundColor": "$background-basic-color-6",
+                    "outlineBackgroundColor": "transparent"
+                  },
+                  "checked.active": {
+                    "borderColor": "transparent",
+                    "backgroundColor": "$background-basic-color-6",
+                    "outlineBackgroundColor": "transparent"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "round": {
+          "mapping": {
+            "width": 12,
+            "height": 12,
+            "borderRadius": 12,
+            "borderWidth": 2
+          }
+        }
+      }
+    },
+    "Layout": {
+      "meta": {
+        "scope": "mobile",
+        "parameters": {
+          "backgroundColor": {
+            "type": "string"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          }
+        },
+        "variantGroups": {
+          "level": {
+            "5": {
+              "default": false
+            },
+            "6": {
+              "default": false
+            },
+            "7": {
+              "default": false
+            },
+            "8": {
+              "default": false
+            }
+          }
+        },
+        "states": {}
+      },
+      "appearances": {
+        "default": {
+          "mapping": {},
+          "variantGroups": {
+            "level": {
+              "5": {
+                "backgroundColor": "background-basic-color-5"
+              },
+              "6": {
+                "backgroundColor": "background-basic-color-6"
+              },
+              "7": {
+                "backgroundColor": "background-basic-color-7"
+              },
+              "8": {
+                "backgroundColor": "background-basic-color-8"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
